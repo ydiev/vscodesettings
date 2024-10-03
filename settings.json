@@ -248,7 +248,6 @@
                 "scope": [
                     "support.class",
                     "entity.name.type.class",
-                    /*                     "constant.numeric" */
                 ],
                 "settings": {
                     "foreground": "#CDAF81",
