@@ -225,7 +225,7 @@
         "when": "inSearchEditor"
     },
     {
-        "key": "shift+cmd+r",
+        "key": "cmd+;",
         "command": "editor.action.refactor",
         "when": "editorHasCodeActionsProvider && textInputFocus && !editorReadonly"
     },
@@ -241,10 +241,6 @@
     {
         "key": "ctrl+shift+q",
         "command": "-tabnine.chat.focus-input"
-    },
-    {
-        "key": "cmd+l",
-        "command": "tabnine.chat.focus-input"
     },
     {
         "key": "cmd+]",
@@ -270,11 +266,6 @@
         "key": "f5",
         "command": "-workbench.action.debug.continue",
         "when": "debugState == 'stopped'"
-    },
-    {
-        "key": "cmd+3",
-        "command": "workbench.view.debug",
-        "when": "viewContainer.workbench.view.debug.enabled"
     },
     {
         "key": "cmd+6",
@@ -315,5 +306,21 @@
         "key": "cmd+p",
         "command": "-expandLineSelection",
         "when": "textInputFocus"
+    },
+    {
+        "key": "cmd+3",
+        "command": "workbench.action.findInFiles"
+    },
+    {
+        "key": "shift+cmd+f",
+        "command": "-workbench.action.findInFiles"
+    },
+    {
+        "key": "shift+cmd+r",
+        "command": "workbench.action.replaceInFiles"
+    },
+    {
+        "key": "shift+cmd+h",
+        "command": "-workbench.action.replaceInFiles"
     }
 ]
