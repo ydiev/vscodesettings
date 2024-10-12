@@ -42,7 +42,6 @@
         {
             "before": [
                 "leader",
-                "g",
                 "h"
             ],
             "commands": [
@@ -52,7 +51,6 @@
         {
             "before": [
                 "leader",
-                "g",
                 "l"
             ],
             "commands": [
