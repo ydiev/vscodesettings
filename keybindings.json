@@ -85,10 +85,6 @@
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+/",
-        "command": "dart.toggleLineComment"
-    },
-    {
         "key": "cmd+e",
         "command": "editor.action.marker.next",
         "when": "editorFocus"
@@ -362,5 +358,10 @@
         "key": "f7",
         "command": "-editor.action.accessibleDiffViewer.next",
         "when": "isInDiffEditor"
+    },
+    {
+        "key": "ctrl+/",
+        "command": "editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
     }
 ]
