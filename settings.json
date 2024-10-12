@@ -42,6 +42,26 @@
         {
             "before": [
                 "leader",
+                "g",
+                "h"
+            ],
+            "commands": [
+                "workbench.action.focusLeftGroup"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "g",
+                "l"
+            ],
+            "commands": [
+                "workbench.action.focusRightGroup"
+            ]
+        },
+        {
+            "before": [
+                "leader",
                 "q"
             ],
             "commands": [
