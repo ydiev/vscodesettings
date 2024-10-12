@@ -1,0 +1,14 @@
+alexisvt.flutter-snippets
+dart-code.dart-code
+dart-code.flutter
+equinusocio.vsc-material-theme
+equinusocio.vsc-material-theme-icons
+esentis.flutter-find-unused-assets-and-dart-files
+felixangelov.bloc
+github.codespaces
+mhutchie.git-graph
+patbenatar.advanced-new-file
+pflannery.vscode-versionlens
+sapegin.just-blame
+usernamehw.errorlens
+vscodevim.vim
