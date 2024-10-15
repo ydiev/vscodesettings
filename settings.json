@@ -189,7 +189,7 @@
                 "s"
             ],
             "commands": [
-                "dartFlutterOutline.focus",
+                "workbench.action.gotoSymbol",
             ]
         },
         {
@@ -198,7 +198,7 @@
                 "a"
             ],
             "commands": [
-                "editor.action.formatDocument",
+                "workbench.action.files.save",
             ]
         },
         {
@@ -234,7 +234,7 @@
     "editor.bracketPairColorization.enabled": true,
     "editor.semanticHighlighting.enabled": false,
     "editor.stickyScroll.enabled": true,
-    //"editor.formatOnSave": true,
+    "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
         "source.fixAll": "always"
     },
