@@ -198,7 +198,7 @@
                 "a"
             ],
             "commands": [
-                "workbench.action.files.save",
+                "editor.action.formatDocument",
             ]
         },
         {
@@ -234,9 +234,9 @@
     "editor.bracketPairColorization.enabled": true,
     "editor.semanticHighlighting.enabled": false,
     "editor.stickyScroll.enabled": true,
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": false,
     "editor.codeActionsOnSave": {
-        "source.fixAll": "always"
+        "source.fixAll": "never"
     },
     "explorer.fileNesting.patterns": {
         "*.dart": "${capture}.g.dart, ${capture}.freezed.dart"
@@ -259,6 +259,7 @@
     "window.customTitleBarVisibility": "never",
     "workbench.editor.showTabs": "none",
     "workbench.colorTheme": "Material Theme Darker",
+    "dart.flutterHotReloadOnSave": "never",
     "workbench.activityBar.location": "hidden",
     "window.commandCenter": true,
     "workbench.colorCustomizations": {
