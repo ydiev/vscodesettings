@@ -1,7 +1,7 @@
-FelixAngelov.bloc
-Dart-Code.dart-code
-Dart-Code.flutter
-sapegin.just-blame
-equinusocio.vsc-material-theme-icons
-Equinusocio.vsc-material-theme
-vscodevim.vim
+ext install FelixAngelov.bloc
+ext install Dart-Code.dart-code
+ext install Dart-Code.flutter
+ext install sapegin.just-blame
+ext install equinusocio.vsc-material-theme-icons
+ext install Equinusocio.vsc-material-theme
+ext install vscodevim.vim
