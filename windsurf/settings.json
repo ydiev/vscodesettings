@@ -1,0 +1,335 @@
+{
+    "vim.digraphs": {},
+    "vim.leader": ",",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false
+    },
+    "vim.vimrc.path": "$HOME/.vscodevimrc",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "lineBreakInsert"
+            ],
+            "silent": true
+        }
+    ],
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "leader",
+                "g",
+                "a"
+            ],
+            "commands": [
+                "justBlame.toggleBlame"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "h"
+            ],
+            "commands": [
+                "workbench.action.focusLeftGroup"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "g",
+                "s",
+            ],
+            "commands": [
+                "workbench.action.showAllSymbols"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "l"
+            ],
+            "commands": [
+                "workbench.action.focusRightGroup"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "q"
+            ],
+            "commands": [
+                "editor.action.showHover"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "o"
+            ],
+            "commands": [
+                "flutter.hotRestart"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "p"
+            ],
+            "commands": [
+                "flutter.hotReload"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "s"
+            ],
+            "commands": [
+                "dart.goToSuper",
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "w"
+            ],
+            "commands": [
+                "editor.action.goToReferences",
+            ],
+        },
+        {
+            "before": [
+                "g",
+                "a"
+            ],
+            "commands": [
+                "editor.action.goToImplementation",
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "r"
+            ],
+            "commands": [
+                "workbench.action.quickOpenPreviousEditor",
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "leader"
+            ],
+            "commands": [
+                "workbench.action.navigateBack",
+            ]
+        },
+        {
+            "before": [
+                ".",
+                "."
+            ],
+            "commands": [
+                "workbench.action.navigateForward",
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                ";"
+            ],
+            "commands": [
+                "editor.action.quickFix",
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "t"
+            ],
+            "commands": [
+                "toggle.window.customTitleBarVisibility",
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "n"
+            ],
+            "commands": [
+                "breadcrumbs.focus",
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "s"
+            ],
+            "commands": [
+                "flutter.hotRestart",
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "e"
+            ],
+            "commands": [
+                "workbench.files.action.focusFilesExplorer",
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "s"
+            ],
+            "commands": [
+                "workbench.action.gotoSymbol",
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "a"
+            ],
+            "commands": [
+                "editor.action.formatDocument",
+            ]
+        },
+        {
+            "before": [
+                "u"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "undo"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<C-r>"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "redo"
+                }
+            ]
+        }
+    ],
+    "extensions.experimental.affinity": {
+        "vscodevim.vim": 1
+    },
+    "files.autoSave": "afterDelay",
+    "editor.fontFamily": "Operator Mono",
+    "editor.fontSize": 16,
+    "editor.fontWeight": "400",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.semanticHighlighting.enabled": false,
+    "editor.stickyScroll.enabled": true,
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "never"
+    },
+    "explorer.fileNesting.patterns": {
+        "*.dart": "${capture}.g.dart, ${capture}.freezed.dart"
+    },
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.expand": false,
+    "[dart]": {
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off",
+    },
+    "dart.warnWhenEditingFilesOutsideWorkspace": false,
+    "dart.renameFilesWithClasses": "prompt",
+    "dart.previewFlutterUiGuides": true,
+    "window.customTitleBarVisibility": "never",
+    "workbench.editor.showTabs": "none",
+    "dart.flutterHotReloadOnSave": "never",
+    "workbench.activityBar.location": "hidden",
+    "window.commandCenter": true,
+    "workbench.colorCustomizations": {
+        "editorOverviewRuler.bracketMatchForeground": "#ff0000",
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "string",
+                ],
+                "settings": {
+                    "foreground": "#C3CDB8",
+                }
+            },
+            {
+                "scope": [
+                    "source.dart",
+                    "storage.type.annotation.dart"
+                ],
+                "settings": {
+                    "foreground": "#EEFFE3"
+                }
+            },
+            {
+                "scope": [
+                    "support.class",
+                    "entity.name.type.class",
+                ],
+                "settings": {
+                    "foreground": "#CDAF81",
+                }
+            },
+            {
+                "scope": [
+                    "keyword.declaration.dart",
+                    "keyword.other.import.dart",
+                    "keyword.control.return.dart",
+                    "keyword.control.dart",
+                    "meta.declaration.dart",
+                    "constant.language.dart",
+                    "constructor",
+                    "entity.name.function",
+                    "storage.modifier.dart"
+                ],
+                "settings": {
+                    "foreground": "#7A83A8",
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": [
+                    "comment",
+                ],
+                "settings": {
+                    "foreground": "#5f5f5f",
+                    "fontStyle": "italic"
+                }
+            },
+        ],
+    },
+    "dart.debugExternalPackageLibraries": true,
+    "dart.debugSdkLibraries": true,
+}
