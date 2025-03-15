@@ -1,0 +1,127 @@
+{
+	// Place your snippets for dart here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	"Print to console": {
+		"prefix": "pr",
+		"body": [
+			"print($1);",
+			"$2"
+		],
+		"description": "Log output to console"
+	},
+	"return": {
+		"prefix": "re",
+		"body": [
+			"return $1;",
+			"$2"
+		],
+		"description": "return"
+	},
+	"rich": {
+		"prefix": "rich",
+		"body": [
+			"RichText( text: TextSpan( style: AppTextStyles.size$1, children: <TextSpan>[ TextSpan( text: $2, style: AppTextStyles.size$3 ), ],),),",
+		]
+	},
+	"Padding": {
+		"prefix": "padd",
+		"body": [
+			"padding: const EdgeInsets.all(AppSpacing.spacing$1),",
+		]
+	},
+	"Border": {
+		"prefix": "border",
+		"body": [
+			"border: Border.all( color: $1,),",
+			"$2",
+		]
+	},
+	"Radius": {
+		"prefix": "radd",
+		"body": [
+			"borderRadius: BorderRadius.all( Radius.circular($1),),",
+			"$2",
+		]
+	},
+	"Color to container": {
+		"prefix": "colo",
+		"body": [
+			"color: Colors.red,",
+		],
+		"description": "Drawes a container with a color"
+	},
+	"spacex": {
+		"prefix": "sx",
+		"body": [
+			"Space.x$1,",
+		],
+		"description": "Drawes a container with a color"
+	},
+	"spacey": {
+		"prefix": "sy",
+		"body": [
+			"Space.y$1,",
+		],
+		"description": "Drawes a container with a color"
+	},
+	"text": {
+		"prefix": "txt",
+		"body": [
+			"const Text($1, style: AppTextStyles.size$2,),",
+		],
+		"description": "Drawes a container with a color"
+	},
+	"Colorful Container": {
+		"prefix": "con",
+		"body": [
+			"Container(color: Colors.red, height: 80),",
+			"$1"
+		],
+		"description": "Drawes a container with a color"
+	},
+	"is mounted": {
+		"prefix": "mounted",
+		"body": [
+			"WidgetsBinding.instance.addPostFrameCallback((_) { if(mounted) {$1} });"
+		],
+		"description": "Drawes a container with a color"
+	},
+	"make sure finished building 2": {
+		"prefix": "built",
+		"body": [
+			"WidgetsBinding.instance.addPostFrameCallback((_) { if(mounted) {$1} });"
+		],
+		"description": "Drawes a container with a color"
+	},
+	"decoration": {
+		"prefix": "deco",
+		"body": [
+			"decoration: const BoxDecoration(color: AppColors.silverCloud,$1),"
+		],
+		"description": "Drawes a container with a color"
+	},
+	"make sure finished building": {
+		"prefix": "didmounted",
+		"body": [
+			"WidgetsBinding.instance.addPostFrameCallback((_) { if(mounted) {$1} });"
+		],
+		"description": "Drawes a container with a color"
+	},
+	"ttc": {
+		"prefix": "ttc",
+		"body": [
+			"try {$1} catch (error) {$2}",
+		],
+		"description": "Drawes a container with a color"
+	}
+}
